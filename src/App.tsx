@@ -4,6 +4,8 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import HelloWorld from './HelloWorld'
 import Counter from './Counter'
+import List from './List'
+import NameForm from './NameForm'
 
 function App() {
   return (
@@ -13,6 +15,12 @@ function App() {
       </div>
       <div>
         <Counter />
+      </div>
+      <div>
+        <List />
+      </div>
+      <div>
+        <NameForm />
       </div>
     </>
   )
